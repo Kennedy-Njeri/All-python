@@ -70,7 +70,7 @@ print ('The function call, x is: ', x)
 func()
 print ('after function call, x is: ', x)
 
-#Instead of using global
+# Instead of using global
 
 x = 50
 
