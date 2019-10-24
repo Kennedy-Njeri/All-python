@@ -8,7 +8,7 @@ print ("The sum of the list elements is {}".format(reduce(lambda a, b: a + b, li
 # A lambda operator can have any number of arguments but can have only one expression.
 
 # def add(x, y):
- #   return x + y
+#   return x + y
 
 
 # Call the function
@@ -20,7 +20,7 @@ print ("The sum of the list elements is {}".format(reduce(lambda a, b: a + b, li
 # add = lambda x, y: x + y
 
 # Output: 5
-#print add(2, 3)
+# print add(2, 3)
 
 
 list1 = [2, 3, 5, 5]
@@ -29,8 +29,7 @@ subtract = (reduce(lambda x, y: x + y, list1))
 
 print(subtract)
 
-
-add = lambda x, y: x+y
+add = lambda x, y: x + y
 print (add(2, 3))
 
 
